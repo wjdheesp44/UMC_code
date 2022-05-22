@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()       // app이 express를 사용한다
 const port = 5500   // localhost에 찍히는 번호, port 번호에 따라 여러 앱을 한꺼번에 실행시킬 수 있음
 
-app.use(express.json());
+app.use(express.json());  // 
 
 const users = [
   {
